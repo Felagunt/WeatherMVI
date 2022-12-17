@@ -14,7 +14,7 @@ import javax.inject.Inject
 
 
 @HiltViewModel
-class WeatherViewModule @Inject constructor(
+class WeatherViewModel @Inject constructor(
     private val repository: WeatherRepository,
     private val locationTracker: LocationTracker
 ): ViewModel() {
